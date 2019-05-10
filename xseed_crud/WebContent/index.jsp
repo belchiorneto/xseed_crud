@@ -9,13 +9,13 @@
 <title>Main</title>
 <script>
 	function buttonCRUD(){
-		window.location = "http://localhost:8080/menu_teste/CRUD.jsp";
+		window.location = "ClientController?action=listClient";
 	}
 	function buttonList(){
-		window.location = "http://localhost:8080/menu_teste/List.jsp";
+		window.location = "http://localhost:8080/xseed_crud/List.jsp";
 	}
 	function buttonLogout(){
-		window.location = "http://localhost:8080/menu_teste/Login.jsp";
+		window.location = "http://localhost:8080/xseed_crud/Login.jsp";
 	}
 </script>
 </head>

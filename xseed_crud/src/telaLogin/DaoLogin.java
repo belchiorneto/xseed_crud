@@ -28,8 +28,8 @@ public class DaoLogin {
 			// Step 1: "Load" the JDBC driver
 			Class.forName("org.h2.Driver");
 
-			conn = DriverManager.getConnection ("jdbc:h2:~/test", "sa","");
-			//conn = DriverManager.getConnection ("jdbc:h2:tcp:192.168.0.170:8082/estagio5:test", "sa","");
+			conn = DriverManager.getConnection ("jdbc:h2:~/test", "admin","");
+			
 			Statement st = conn.createStatement();
 			results = st.executeQuery(sql);
 			loginRetorno = resultSetToLogin(results);

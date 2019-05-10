@@ -16,7 +16,7 @@
 <title>List</title>
 <script>
 	function buttonBack(){
-		window.location = "http://localhost:8080/menu_teste/Main.jsp";
+		window.location = "http://localhost:8080/xseed_crud/";
 	}
 </script>
 </head>
@@ -34,12 +34,15 @@
 			</tr>
 		</thead>
 		<%
-			List<ClienteModel> lista = DaoClient.getInstancia().pesquisar();
+			
+		List<ClienteModel> lista = DaoClient.getInstancia().pesquisar();
 			String nome, endereco;
 			Double credito;
 			Date validade;
 			for(int i=0; i<lista.size(); i++){
+				
 				nome = lista.get(i).getName();
+				
 				endereco = lista.get(i).getAdress();
 				credito = lista.get(i).getCredit();
 				validade = lista.get(i).getExpiration();

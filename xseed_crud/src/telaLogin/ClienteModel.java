@@ -39,5 +39,11 @@ public class ClienteModel {
 	public void setId(long id) {
 		this.id = id;
 	}	
+	@Override
+    public String toString() {
+        return "ClienteModel [id=" + id + ", name=" + name
+                + ", address=" + adress + ", expiration=" + expiration + ", credit="
+                + credit + "]";
+    }  
 		
 }
