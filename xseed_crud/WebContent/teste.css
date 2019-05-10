@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+body{
+	text-align: center;
+}
+
+.CRUD{
+	font-size: 40px;
+}
+
+.List{
+	padding-left: 35px;
+	padding-right: 35px;
+	font-size: 40px;
+}
+
+.buttons{
+	margin-top: 5em;
+}
+
+.Logout{
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+h1{
+	display: inline-block;
+	font-size: 65px;
+	margin-left: 1em;
+}

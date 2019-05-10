@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+.Back{
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+h1{
+	display: inline-block;
+}
